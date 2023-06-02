@@ -1,0 +1,25 @@
+Tabela: Livros
+    Atributos: 
+        Nome: texto
+        Autor: texto
+        Número de Capítulos: inteiro
+        Número de Linhas: inteiro
+        Identificação do Livro: inteiro; Chave Primária
+
+Tabela: Pedidos
+    Atributo:
+        Identificação do Aluno: inteiro
+        Identificação do Livro: inteiro
+        Prazo de Entrega: data
+
+
+Tabela: Alunos
+    Atributo:
+        CPF: texto
+        RG: texto
+        Nome: texto
+        Curso: texto
+        Matrículo do Aluno: inteiro
+
+
+Relações: Livros e Pedidos; Alunos e Pedidos; Livros e Alunos.
